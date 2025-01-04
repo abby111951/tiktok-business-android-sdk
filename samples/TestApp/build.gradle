@@ -7,6 +7,9 @@
 apply plugin: 'com.android.application'
 
 android {
+    <uses-permission android:name="android.permission.INTERNET" />
+
+<uses-permission android:name="com.google.android.gms.permission.AD_ID" />
     compileSdkVersion 33
     buildToolsVersion "30.0.2"
     defaultConfig {
